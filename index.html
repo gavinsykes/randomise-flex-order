@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="./index.js"></script>
+  <link rel="stylesheet" href="./styles.css">
+  <title>Randomising Flex Order of Child Items</title>
+</head>
+<body>
+<main>
+  <h2>Showing first of all that the randomisation can be done.</h2>
+  <button class='randomise-button'>Re-randomise</button>
+  <div class='container'>
+    <div class='item' id='item-1'>1</div>
+    <div class='item' id='item-2'>2</div>
+    <div class='item' id='item-3'>3</div>
+    <div class='item' id='item-4'>4</div>
+    <div class='item' id='item-5'>5</div>
+    <div class='item' id='item-6'>6</div>
+    <div class='item' id='item-7'>7</div>
+    <div class='item' id='item-8'>8</div>
+    <div class='item' id='item-9'>9</div>
+    <div class='item' id='item-10'>10</div>
+    <div class='item' id='item-11'>11</div>
+    <div class='item' id='item-12'>12</div>
+    <div class='item' id='item-13'>13</div>
+    <div class='item' id='item-14'>14</div>
+    <div class='item' id='item-15'>15</div>
+    <div class='item' id='item-16'>16</div>
+    <div class='item' id='item-17'>17</div>
+    <div class='item' id='item-18'>18</div>
+    <div class='item' id='item-19'>19</div>
+    <div class='item' id='item-20'>20</div>
+    <div class='item' id='item-21'>21</div>
+    <div class='item' id='item-22'>22</div>
+    <div class='item' id='item-23'>23</div>
+    <div class='item' id='item-24'>24</div>
+    <div class='item' id='item-25'>25</div>
+  </div>
+  <h2>Actual Application</h2>
+  <p>This is where we had a range of vendor logos to choose from, but only had room to display a certain subset of them depending on screen size, and of course we didn't want them to always be the same ones - someone viewing on a mobile might think we supply kit from 3 different vendors and that's it!</p>
+  <button class='randomise-button'>Re-randomise</button>
+  <div class='container-app'>
+    <div class='item' id='item-1'>1</div>
+    <div class='item' id='item-2'>2</div>
+    <div class='item' id='item-3'>3</div>
+    <div class='item' id='item-4'>4</div>
+    <div class='item' id='item-5'>5</div>
+    <div class='item' id='item-6'>6</div>
+    <div class='item' id='item-7'>7</div>
+    <div class='item' id='item-8'>8</div>
+    <div class='item' id='item-9'>9</div>
+    <div class='item' id='item-10'>10</div>
+    <div class='item' id='item-11'>11</div>
+    <div class='item' id='item-12'>12</div>
+    <div class='item' id='item-13'>13</div>
+    <div class='item' id='item-14'>14</div>
+    <div class='item' id='item-15'>15</div>
+    <div class='item' id='item-16'>16</div>
+    <div class='item' id='item-17'>17</div>
+    <div class='item' id='item-18'>18</div>
+    <div class='item' id='item-19'>19</div>
+    <div class='item' id='item-20'>20</div>
+    <div class='item' id='item-21'>21</div>
+    <div class='item' id='item-22'>22</div>
+    <div class='item' id='item-23'>23</div>
+    <div class='item' id='item-24'>24</div>
+    <div class='item' id='item-25'>25</div>
+  </div>
+  <p>You will notice that the above row still displays random numbers between the 2 numbers you have chosen, (if you're in the full view on CodePen, it defaults to 1 and 25) but it only displays a subset of them, using overflow: hidden to hide the rest.</p>
+</main>
+</body>
+</html>
